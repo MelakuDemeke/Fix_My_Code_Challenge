@@ -1,4 +1,5 @@
 #!/usr/bin/node
+
 /*
     Print a square with the character #
     
@@ -15,7 +16,7 @@ if (process.argv.length <= 2) {
 }
 
 size = parseInt(process.argv[2],10)
-console.log(size)
+
 for (let i = 0 ; i < size ; i ++) {
     for (let j = 0 ; j < size ; j ++) {
         process.stdout.write("#");
